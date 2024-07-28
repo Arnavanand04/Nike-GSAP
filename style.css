@@ -1,0 +1,152 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    display: flex;
+}
+#left{
+    width:35%;
+    height:100%;
+    background-color: #AE3D4B;
+    color:#fff;
+    position: relative;
+}
+#left #text{
+    position: absolute;
+    width:90%;
+    top:25%;
+    left:10%;
+}
+#text h1{
+    font-size: 50px;
+    line-height: 1;
+}
+#text h1 span{
+    font-weight: 300;
+}
+#text h2{
+    font-size:25px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+#text p{
+    font-size: 14px;
+    width:60%;
+    line-height: 1.7;
+    margin-bottom:20px;
+}
+#text button{
+    padding:8px 22px;
+    background-color: #fff;
+    border:none;
+    color:rgb(214, 20, 20);
+    font-weight: 500;
+    border-radius: 4px;
+}
+#left #btm{
+    width:90%;
+    background-color: #fff;
+    position: absolute;
+    left:0;
+    bottom:3%;
+    padding:20px;
+    color:black;
+}
+#btm h3{
+    font-size: 20px;
+}
+#btm p{
+    font-size :12px;
+    width:80%;
+    margin-top:5px;
+    opacity:.7;
+}
+#right{
+    width:65%;
+    height:100%;
+    background-color: #fff;
+    position: relative;
+}
+#right>img{
+    position: absolute;
+    top:45%;
+    left: -7%;
+    transform: translate(-50%,-50%) rotate(-25deg);
+    background: none;
+}
+#right #center{
+    position: absolute;
+    top:15%;
+    width:60%;
+    left:25%;
+}
+#center h1{
+    font-size:60px;
+    color: #ce192e;
+}
+#center h1 span{
+    color:black;
+    font-weight:300;
+}
+#center h2{
+    font-weight:400;
+    margin-bottom: 20px;
+}
+#center h2 span{
+    font-weight:700;
+}
+#center p{
+    font-size:13px;
+    width:80%;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+#center #btns{
+    display: flex;
+    gap:20px;
+}
+#center button{
+    padding:14px 22px;
+}
+#center button:nth-child(1){
+    background-color: transparent;
+    border:1px solid red;
+    border-radius:10px;
+    font-weight:600;
+    color:rgb(255, 0, 0);
+}
+#center button:nth-child(2){
+    background-color: red;
+    border:none;
+    border-radius:100px;
+    font-weight:600;
+    color:#fff;
+}
+#sampletext{
+    margin-top:30px;
+}
+#samples{
+    display: flex;
+    gap:30px;
+    margin-top: 30px;
+}
+.sample{
+    width:100px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.sample img{
+    width:100%;
+}
+#samples #ad{
+   padding-top:17px;
+}
