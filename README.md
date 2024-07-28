@@ -1,2 +1,0 @@
-# Nike-GSAP
-# Nike
